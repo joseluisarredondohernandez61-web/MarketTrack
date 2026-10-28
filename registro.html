@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de producto</title>
+    <link rel="stylesheet" href="../css/miEstilo.css">
+</head>
+<body>
+
+    <header class="menu-superior">
+        <div><span class=""></span><b>Market Track</b></div>
+        <nav>
+            <a href="inventario.html">Inventario</a>
+            <a href="registro.html" class="activo">Registro</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <main class="contenido">
+
+        <h1>Registrar producto</h1>
+
+        <div class="caja">
+            <form>
+                <label>Nombre del producto</label>
+                <input type="text" placeholder="Ej. Audifonos Bluetooth">
+
+                <label>Código</label>
+                <input type="text" placeholder="MT-007">
+
+                <label>Categoría</label>
+                <select>
+                    <option>Selecciona una opción</option>
+                    <option>Tecnología</option>
+                    <option>Accesorios</option>
+                    <option>Hogar</option>
+                    <option>Audio</option>
+                    <option>Otros</option>
+                </select>
+
+                <label>Precio</label>
+                <input type="number" placeholder="0.00">
+
+                <label>Stock inicial</label>
+                <input type="number" placeholder="0">
+
+                <label>Descripción</label>
+                <textarea rows="4" placeholder="Describe el producto"></textarea>
+
+                <div class="botones-form">
+                    <a class="boton boton-gris" href="inventario.html">Cancelar</a>
+                    <button class="boton" type="button">Guardar producto</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+        <p>MarketTrack 2026 | "Lo que necesitas lo mas cerca de ti" Diseñadores: Jose Luis Arredondo Hernandez | Marcos Alvaro Martinez Ibarra | Edgar Uriel Jimenez Hernandez
+            <div class="d-flex justify-content-center gap-4">
+            <a href="#" class="fs-4 redes" title="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="fs-4 redes" title="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="fs-4 redes" title="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="#" class="fs-4 redes" title="TikTok">
+                <i class="bi bi-tiktok"></i>
+            </a>
+        </div>
+    </div>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
